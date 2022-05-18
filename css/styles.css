@@ -1,0 +1,57 @@
+body {
+  max-width: 375px;
+  margin: auto;
+  background-color: #EFEFEF;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Helvetica';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 27px;
+  margin: 0px;
+}
+
+p {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.texte-intro {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  margin: 0;
+}
+
+.pastille-size {
+  width: 18px;
+}
+
+header {
+  /* margin: 0px 15px; */
+  padding: 2px 15px;
+  border:2px solid black;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intro-page-accueil {
+  margin: 34px 15px 0px 15px;
+}
+
+.logo-jo {
+  width: 128px;
+}
+
+.logo-amber {
+  width: 128px;
+}

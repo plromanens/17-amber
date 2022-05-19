@@ -68,3 +68,37 @@ header {
   display: flex;
   flex-direction: row-reverse;
 }
+
+.button {
+  background-color: #F6F6F6;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 23px;
+  padding: 3px 10px;
+}
+
+.helsinki-logo-card {
+  background-image: url(../img/helsinki_card.svg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 364px;
+  margin: 0px 15px;
+}
+
+.button-position {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+/* .boite-card {
+ margin: 24px 15px;
+}
+
+.boite-card img {
+  display: block;
+} */

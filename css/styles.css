@@ -60,7 +60,7 @@ header {
 }
 
 .logo-amber {
-  margin-top: 50px;
+  margin: 50px 15px 0px 0px;
   width: 100px;
 }
 
@@ -80,14 +80,15 @@ header {
   font-style: normal;
   font-size: 23px;
   padding: 3px 10px;
+  margin: 8px 20px;
 }
 
 .helsinki-logo-card {
   background-image: url(../img/helsinki_card.svg);
-  background-size:cover;
+  background-size:345px 160px;
   background-repeat: no-repeat;
-  height: 364px;
-  margin: 0px 15px;
+  height: 163px;
+  margin: 25px 15px 0px 15px;
 }
 
 .button-position {
@@ -95,6 +96,23 @@ header {
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+.mexico-logo-card {
+  background-image: url(../img/mexico_card.svg);
+  background-size:345px 160px;
+  background-repeat: no-repeat;
+  height: 163px;
+  margin: -5px 15px;
+}
+
+.munich-logo-card {
+  background-image: url(../img/munich_card.svg);
+  background-size:345px 160px;
+  background-repeat: no-repeat;
+  height: 163px;
+  margin: 0px 15px;
+}
+
 /* .boite-card {
  margin: 24px 15px;
 }

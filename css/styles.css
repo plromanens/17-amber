@@ -2,6 +2,18 @@
   background-color: #EFEFEF;
 }
 
+.fifties-page {
+  background-color: #1A6BA5;
+}
+
+.sixties-page {
+  background-color: #A8CF94;
+}
+
+.seventies-page {
+  background-color: #E85A0C;
+}
+
 body {
   max-width: 375px;
   margin: auto;

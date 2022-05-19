@@ -170,6 +170,18 @@ footer .logo-amber {
   font-size: 8px;
   margin: 0px;
 }
+
+a {
+  text-decoration: none;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
 /* .boite-card {
  margin: 24px 15px;
 }

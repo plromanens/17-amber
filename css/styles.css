@@ -113,6 +113,20 @@ header {
   margin: 0px 15px;
 }
 
+.revendeur-container {
+  margin: 15px;
+}
+
+.revendeur-container img{
+  margin: 21px 0px;
+  width: 345px;
+}
+
+.revendeur-container h1 {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+}
 /* .boite-card {
  margin: 24px 15px;
 }

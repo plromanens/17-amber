@@ -81,6 +81,20 @@ header {
   background-position: center;
 }
 
+.intro-page-sixties {
+  background-image: url(../img/logo_page_mexico.svg);
+  background-size: 245px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro-page-seventies {
+  background-image: url(../img/logo_page_munich.svg);
+  background-size: 245px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .intro-page-accueil-texte h1 {
   padding: 34px 0px 0px 15px;
 }
@@ -214,8 +228,16 @@ a:hover {
   margin: 15px 30px 15px 15px ;
 }
 
-.intro-card {
+.intro-helsinki {
   background-image: url(../img/background_color_forme_helsinki.svg);
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 178px;
+}
+
+.intro-mexico {
+  background-image: url(../img/background_color_forme_mexico.svg);
   background-size: 375px;
   background-repeat: no-repeat;
   background-position: center;
@@ -231,14 +253,30 @@ a:hover {
   margin: 40px 15px 23px 15px;
 }
 
-.achat-card {
+.number-card-helsinki {
+  color: #1A6BA3;
+}
+
+.number-card-mexico {
+  color: #EB8A00;
+}
+
+.achat-card-helsinki {
   background-color: #1A6BA3;
   background-image: url(../img/photo_achat_part_helsinki.svg);
   background-size: 375px;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 13px;
-  
+}
+
+.achat-card-mexico {
+  background-color: #EB8A00;
+  background-image: url(../img/photo_achat_part_mexico.svg);
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 13px;
 }
 
 .achat-card p {

@@ -1,9 +1,9 @@
 .accueil_page {
-  background-color: #EFEFEF;
+  background-color: #FFF5E9;
 }
 
 .fifties-page {
-  background-color: #1A6BA5;
+  background-color: #A6C5DC;
 }
 
 .sixties-page {
@@ -32,6 +32,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  margin: 5px 0px;
 }
 
 .intro-page-accueil-texte h1 {
@@ -72,13 +73,26 @@ header {
   background-position: right top;
 }
 
+
+.intro-page-fifties {
+  background-image: url(../img/logo_page_helsinki.svg);
+  background-size: 245px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .intro-page-accueil-texte h1 {
   padding: 34px 0px 0px 15px;
 }
 
 .logo-amber {
   margin: 50px 15px 0px 0px;
-  width: 100px;
+  width: 73px;
+}
+
+.logo-amber-page-boite {
+  margin: 172px 15px 15px 0px;
+  width: 73px;
 }
 
 .logo-amber-container {
@@ -102,9 +116,9 @@ header {
 
 .helsinki-logo-card {
   background-image: url(../img/helsinki_card.svg);
-  background-size:345px 160px;
+  background-size:352px 169px;
   background-repeat: no-repeat;
-  height: 163px;
+  height: 172px;
   margin: 25px 15px 0px 15px;
 }
 

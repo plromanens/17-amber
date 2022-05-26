@@ -104,14 +104,14 @@ header {
   background-color: #F6F6F6;
   color: black;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 6px;
   text-decoration: none;
   font-family: 'Helvetica';
   font-weight: 300;
   font-style: normal;
-  font-size: 23px;
+  font-size: 18px;
   padding: 3px 10px;
-  margin: 8px 20px;
+  margin: 21px 15px;
 }
 
 .helsinki-logo-card {
@@ -122,11 +122,11 @@ header {
   margin: 25px 15px 0px 15px;
 }
 
-.button-position {
+/* .button-position {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
+} */
 
 .mexico-logo-card {
   background-image: url(../img/mexico_card.svg);
@@ -216,11 +216,63 @@ a:hover {
 
 .intro-card {
   background-image: url(../img/background_color_forme_helsinki.svg);
-  background-size: 374px;
+  background-size: 375px;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 50px;
+  padding-bottom: 178px;
 }
+
+.number-card {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 222px;
+  color: #1A6BA3;
+  margin: 40px 15px 23px 15px;
+}
+
+.achat-card {
+  background-color: #1A6BA3;
+  background-image: url(../img/photo_achat_part_helsinki.svg);
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 13px;
+  
+}
+
+.achat-card p {
+  color: white;
+  font-size: 16px;
+  margin: 0px 30px 23px 15px;
+}
+
+.achat-card img {
+  width: 115px;
+  margin: 15px 128px;
+}
+
+h2 {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 15px;
+}
+
+h3 {
+  font-family: 'Helvetica';
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  margin: 21px 15px 10px 15px;
+}
+
+.boite-face-avant {
+  width: 375px;
+}
+
 
 /* .intro-card img {
   margin-bottom: 30px;

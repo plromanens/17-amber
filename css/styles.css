@@ -208,6 +208,23 @@ a {
 a:hover {
   color: grey;
 }
+
+.intro-card p {
+  font-size: 19px;
+  margin: 15px 30px 15px 15px ;
+}
+
+.intro-card {
+  background-image: url(../img/background_color_forme_helsinki.svg);
+  background-size: 374px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 50px;
+}
+
+/* .intro-card img {
+  margin-bottom: 30px;
+} */
 /* .boite-card {
  margin: 24px 15px;
 }

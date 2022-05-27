@@ -110,7 +110,7 @@ header {
 }
 
 .logo-amber {
-  margin: 50px 15px 0px 0px;
+  margin: 50px 15px 10px 0px;
   width: 73px;
 }
 
@@ -135,37 +135,8 @@ header {
   font-style: normal;
   font-size: 18px;
   padding: 3px 10px;
-  margin: 21px 15px;
-}
-
-.helsinki-logo-card {
-  background-image: url(../img/helsinki_card.svg);
-  background-size:352px 169px;
-  background-repeat: no-repeat;
-  height: 172px;
-  margin: 25px 15px 0px 15px;
-}
-
-/* .button-position {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-} */
-
-.mexico-logo-card {
-  background-image: url(../img/mexico_card.svg);
-  background-size:345px 160px;
-  background-repeat: no-repeat;
-  height: 163px;
-  margin: -5px 15px;
-}
-
-.munich-logo-card {
-  background-image: url(../img/munich_card.svg);
-  background-size:345px 160px;
-  background-repeat: no-repeat;
-  height: 163px;
-  margin: 0px 15px;
+  margin: 21px 15px 13px 15px;
+  display: inline-block;
 }
 
 .revendeur-container {
@@ -285,29 +256,14 @@ a:hover {
 
 .achat-card-helsinki {
   background-color: #1A6BA3;
-  background-image: url(../img/photo_achat_part_helsinki.svg);
-  background-size: 375px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 13px;
 }
 
 .achat-card-mexico {
   background-color: #762A7D;
-  background-image: url(../img/photo_achat_part_mexico.svg);
-  background-size: 375px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 13px;
 }
 
 .achat-card-munich {
   background-color: #FFD600;
-  background-image: url(../img/photo_achat_part_munich.svg);
-  background-size: 375px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 13px;
 }
 
 .achat-card p {
@@ -342,14 +298,18 @@ h3 {
   width: 375px;
 }
 
-
-/* .intro-card img {
-  margin-bottom: 30px;
-} */
-/* .boite-card {
- margin: 24px 15px;
+.product-image {
+  position: relative;
 }
 
-.boite-card img {
-  display: block;
-} */
+.product-image img {
+  margin: 0;
+  width: 375px;
+}
+
+.product-image a {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
